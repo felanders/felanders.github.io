@@ -19,9 +19,7 @@
 			<itunes:name>{{ site.author }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-        <itunes:image href="{{ site.url }}{{ site.baseurl }}/images/itunes.png" />
-		<itunes:category text="Literature" />
-		<itunes:category text="Society &amp; Culture" />
+        <itunes:image href="http://{{ site.url }}{{ site.baseurl }}/images/Park.png" />
         <itunes:explicit>no</itunes:explicit>
 		
 {% for post in site.posts %}
