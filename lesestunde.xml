@@ -19,7 +19,7 @@
 			<itunes:name>{{ site.author }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-        <itunes:image href="http://{{ site.url }}{{ site.baseurl }}/images/Park.png" />
+        <itunes:image href="http://{{ site.url }}{{ site.baseurl }}/lesestunde/Park.png" />
         <itunes:explicit>no</itunes:explicit>
 		
 {% for post in site.posts %}
@@ -34,7 +34,9 @@
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <itunes:duration>{{ post.duration }}</itunes:duration>
             <itunes:explicit>{{ post.explicit }}</itunes:explicit>
-            <description>{{ post.summary | xml_escape }} {{ post.description | xml_escape }} Show Notes Available at {{ site.url }}{{ site.baseurl }}{{ post.url }}.</description>
+            <description>{{ post.summary | xml_escape }} 
+            {{ post.description | xml_escape }}
+            Show Notes Available at {{ site.url }}{{ site.baseurl }}{{ post.url }}</description>
             <itunes:keywords>{{ post.keywords }}</itunes:keywords>
             <itunes:block>{{ post.block }}</itunes:block>
 		</item>
