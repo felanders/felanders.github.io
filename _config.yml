@@ -1,9 +1,12 @@
 ###########
 # site.title
 
-title: ET-Jekyll Theme
-description: A minimal Jekyll theme inspired by Tufte CSS
-url: ""
+title: Felanders' LEsestunde
+description: Eine digitale Lesestunde
+subtitle: ""
+lang: de-de
+author: Felanders
+url: "felanders.github.io"
 host: 0.0.0.0
 
 
