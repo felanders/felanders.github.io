@@ -4,5 +4,4 @@ title: Posts
 description: Ein Vorleseversuch
 ---
 
-<p>Ein erster Versuch im Vorlesen</p>
-
+Hier gibts die Show Notes zu den einzelnen Folgen:
